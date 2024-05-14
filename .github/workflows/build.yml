@@ -6,8 +6,9 @@ on:
       - main
     paths:
       - 'conda-linux-64.lock'
-      - 'environment.yml'
+      - 'install.R'
       - 'Dockerfile'
+      - 'environment.yml'
       # Trigger rebuilds if the build process changes
       - '.github/workflows/build.yaml'
   pull_request:
