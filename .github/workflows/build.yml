@@ -39,7 +39,7 @@ jobs:
         DOCKER_REGISTRY: "quay.io"
         # Disable pushing a 'latest' tag, as this often just causes confusion
         LATEST_TAG_OFF: true
-        IMAGE_NAME: "cryointhecloud/cryo-hub-r-image"
+        IMAGE_NAME: "rwegener2/hub-r-image"
         # Put repo contents in /srv/repo, so they aren't mangled when we put user home in /home/jovyan
         REPO_DIR: /srv/repo
 
